@@ -1,7 +1,5 @@
 import React from "react";
 import './navbar.css'
-import Grid from "@mui/material/Grid";
-import Box from "@mui/material/Box";
 import honeychoco from '../images/Untitled-4.png'
 import cartimg from "../images/bar.png"
 

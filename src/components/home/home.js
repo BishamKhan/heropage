@@ -1,7 +1,5 @@
 import React from "react";
 import "./home.css";
-import Grid from "@mui/material/Grid";
-import Box from "@mui/material/Box";
 import mainicon from "../images/bee.png";
 import blurbee from "../images/blurred_bee-.png";
 import leaf from "../images/leaves1.png";
