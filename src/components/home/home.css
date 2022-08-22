@@ -1,0 +1,435 @@
+@import url('http://fonts.cdnfonts.com/css/honey-butterfly');
+
+
+.row{
+    background-color: #fffccf;
+    margin-right: 0px;
+    margin-left: 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+.mtext{
+    font-family: 'Honey Butterfly';
+    /* background-color: skyblue; */
+    /* text-align: left; */
+    /* margin-left: 8%; */
+    /* line-height: 35%; */
+    /* line-height: 75%; */
+}
+
+.alltxt{
+    line-height: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 18%;
+    text-align: left;
+    
+    /* font-family: 'Honey Butterfly'; */
+}
+
+.txt5{
+    font-size: 43pt;
+    font-weight: bold;
+    color: #b67f44;
+    /* background-image: linear-gradient(to right, #b67f44 , #5e2610);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.txt6{
+    font-size: 20pt;
+    font-weight: bold;
+    color: #6b2f17;
+    margin-left: 14%;
+}
+
+.txt7{
+    font-size: 42pt;
+    font-weight: bold;
+    color: #6b2f17;
+}
+
+.maintxt2{
+    font-size: 18pt;
+    font-family: sans-serif;
+    padding-top: 2%;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 18%;
+    text-align: left;
+}
+
+
+
+.mouse-cursor-gradient-tracking {
+    /* position: relative; */
+    background: #7983ff;
+    /* padding: 0.1rem 0.1rem; */
+    font-size: 1.2rem;
+    /* border: none; */
+    /* color: white; */
+    cursor: pointer;
+    /* outline: none;
+    overflow: hidden; */
+  }
+  
+  /* .mouse-cursor-gradient-tracking span {
+    position: relative;
+  }
+  
+  .mouse-cursor-gradient-tracking:before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, pink, transparent);
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease;
+  }
+  
+  .mouse-cursor-gradient-tracking:hover:before {
+    --size: 200px;
+  }
+ */
+
+
+
+.maindiv3{
+    text-align: left;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 18%;
+    text-align: left;
+    }
+    
+    .maindiv3 button{
+        background-color: #ffcc66;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        padding-left:   5%;
+        padding-right:  5%;
+        padding-top:    1%;
+        padding-bottom: 1%;
+        box-shadow: none;
+        z-index: 1;
+        transition: border 1s;
+        transition: background-color 1s;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    .btn:hover{
+        background-color: #FFFEE0;
+        color: #5e2610;
+        border: 1px solid #5e2610;   
+    }
+
+    .div1{
+        /* background-color: skyblue; */
+        /* text-align: center; */
+    }
+
+    .grad{
+        background: radial-gradient(closest-side at 16% 44% , #f6f49a, #fffccf);
+        /* width: 84%; */
+        margin: 0px auto;
+        transition: 0.3s;
+      }
+    
+      
+    .grad:hover{
+        background: radial-gradient(closest-side at 16% 44% , #f7f450, #fffccf);
+      }
+
+    .iconing{
+        z-index: 1;
+        width:  80%;
+     }
+
+     .smallbee{
+        position: absolute;
+        width:  22%;
+        height: 22%;
+        left: 17%;
+        top:  42%;
+        z-index: 2;
+    }
+
+    .blurbee{
+        position: absolute;
+        /* left: 5%; */
+        /* top: 35%; */
+        z-index: 4;
+        /* animation: examplebee 3s ease-in-out infinite alternate; */
+    }
+    
+    .smoke{
+        position: absolute;
+        width:  20%;
+        height: 20%;
+        left: 14%;
+        top: 40%;
+        z-index: 3;
+        opacity: 0.5;
+    }
+    
+    .smoke:hover{
+        cursor: pointer;
+        animation: example 4s ease-in-out infinite alternate;
+    }
+
+    .beesh{
+        width:  15%;
+        height: 15%;
+        position: absolute;
+        left: 58%;
+        top: 12%;
+        z-index: 2;
+    }
+    
+    .leaf{
+        width: 19%;
+        position: absolute;
+        left: -5%;
+        top: -6%;
+        z-index: 1;
+    }
+
+    .shadow{
+        width:  50%;
+        height: 60%;
+        z-index: 2; 
+        position: absolute;
+        left: -3%;
+        top: -2%;
+        /* 
+        left: -10%;
+        top: 0%;
+        z-index: 2; */
+    }
+    
+    @keyframes example {
+        0%   {left: 10%;}
+        /* 0%   {top: 25%;} */
+        25%   {left: 5%;}
+        /* 25%   {top: 20%;} */
+        50%   {left: 10%;}
+        /* 50%   {top: 25%;} */
+        100%   {left: 5%;}
+        /* 100%   {top: 20%;} */
+        /* 25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;} */
+      }
+    
+    @keyframes examplebee {
+        0%   {left: -30%;}
+    
+        0%   {top: 30%;}
+    
+        /* 25%   {left: 20%;} */
+    
+        25%   {top: 10%;}
+        /* 50%   {left: 10%;} */
+        50%   {top: 30%;}
+        /* 100%   {left: 5%;} */
+        100%   {top: 10%;}
+        /* 25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;} */
+      }
+    
+      .yelleff{
+        width:  50%;
+        height: 90%;
+        position: absolute;
+        left: 25%;
+        top:  10%;
+        z-index: 3;
+    }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+    /* @media (max-width: 576px) { 
+
+        .txt5{
+            font-size: 23pt;
+        }
+        
+        .txt6{
+            font-size: 12pt;
+        }
+        
+        .txt7{
+            font-size: 22pt;
+        }
+     } */
+ 
+
+    
+
+    
+
+    
+/* XX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) { 
+        .beesh{
+            left: 59%;
+            top: 30%;
+        }
+        .blurbee{
+            /* position: absolute; */
+            left: -4%;
+            top: 45%;
+        }
+     }
+
+
+     /* X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+        .beesh{
+            width:  14%;
+            height: 14%;
+            left: 60%;
+            top: 32%;
+        }
+        .blurbee{
+            left: -5%;
+            top: 50%;
+        }
+     }
+
+     /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        .beesh{
+            width:  15%;
+            height: 15%;
+            left: 60%;
+            top:  35%;
+        }
+        .blurbee{
+            left: -4%;
+            /* top: 35%; */
+        }
+        /* .leaf{
+            width: 25%;
+            left: -4%;
+            top: -6%;
+        } */
+     }
+
+
+     @media (min-width: 770px) {
+        .beesh{
+            width:  15%;
+            height: 15%;
+            left: 60%;
+            top:  35%;
+        }
+        .blurbee{
+            left: -5%;
+            top: 45%;
+        }
+        
+        /* .leaf{
+            width: 25%;
+            left: -4%;
+            top: -6%;
+        } */
+     }
+
+         /* Medium devices (tablets, 768px and up) */
+    @media (max-width: 768px) {
+        .beesh{
+            width:  15%;
+            height: 15%;
+            left: 32%;
+            top: 45%;
+        }
+        .blurbee{
+            left: -8%;
+            top: 12%;
+        }
+        .smoke{
+            width:  20%;
+            height: 20%;
+            left: 34%;
+            top: 10%;
+        }
+        
+        /* .leaf{
+            width: 27%;
+            left: -5%;
+            top: -6%;
+        } */
+     }
+
+     /* Small devices (landscape phones, 576px and up) */
+         @media (max-width: 576px) {
+
+            .beesh{
+                width:  15%;
+                height: 15%;
+                left: 30%;
+                top: 70%;
+            }
+            .alltxt{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .txt5{
+                font-size: 25pt;
+                text-align: center;
+                /* margin-left: 18%; */
+            }
+            .txt6{
+                font-size: 18pt;
+                text-align: center;
+                /* margin-left: 18%; */
+            }
+            .txt7{
+                font-size: 25pt;
+                text-align: center;
+                /* margin-left: 18%; */
+            }
+            .smoke{
+                width:  20%;
+                height: 20%;
+                left: 38%;
+                top: 12%;
+            }
+            .maintxt2{
+                font-size: 16pt;
+                padding-top: 4%;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .maindiv3{
+                margin-top: 5%;
+                }
+                /* .blurbee{
+                    left: -16%;
+                    top: 18%;
+                }   */
+ 
+     }
+
+     @media (max-width: 420px) {
+        .blurbee{
+            left: -18%;
+            top: 18%;
+        }  
+     }
