@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import mainicon from "../images/bee.png";
+// import mainicon from "../images/main.png"
 import blurbee from "../images/blurred_bee-.png";
 import leaf from "../images/leaves1.png";
 
@@ -8,6 +9,9 @@ import leaf from "../images/leaves1.png";
 // import shadow from "../images/Shadow.png"
 import shadow from "../images/shadd.png";
 import smoke from "../images/smoke-removebg-preview.png";
+
+import smokee from "../images/smoke-removebg-preview.png";
+
 import beesh from "../images/bee shadows.png";
 import pinkeff from "../images/pink circle thingy.png";
 import sbee from "../images/sbee.png";
@@ -65,15 +69,17 @@ export default function Home() {
         </div>
 
         <div className="col-md-6 div1">
-          <div className="grad">
+          <div className="grad" >
             <img className="beesh" src={beesh} />
-
-            {/* <img className="yelleff" src={yelloweff} /> */}
-
+            <img className="smokee2" src={smokee} />
+          
             <img className="iconing" src={mainicon}></img>
-
-            {/* <img className="pinkeff" src={pinkeff} /> */}
+            {/* <div className="gradd2">
+.
+          </div> */}
           </div>
+
+
         </div>
       </div>
     </div>

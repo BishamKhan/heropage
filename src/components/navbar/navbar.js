@@ -1,5 +1,5 @@
 import React from "react";
-import './navbar.css'
+import './navbar.css'   
 import honeychoco from '../images/Untitled-4.png'
 import cartimg from "../images/bar.png"
 

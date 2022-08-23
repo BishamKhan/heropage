@@ -65,43 +65,6 @@
 }
 
 
-
-.mouse-cursor-gradient-tracking {
-    /* position: relative; */
-    background: #7983ff;
-    /* padding: 0.1rem 0.1rem; */
-    font-size: 1.2rem;
-    /* border: none; */
-    /* color: white; */
-    cursor: pointer;
-    /* outline: none;
-    overflow: hidden; */
-  }
-  
-  /* .mouse-cursor-gradient-tracking span {
-    position: relative;
-  }
-  
-  .mouse-cursor-gradient-tracking:before {
-    --size: 0;
-    content: '';
-    position: absolute;
-    left: var(--x);
-    top: var(--y);
-    width: var(--size);
-    height: var(--size);
-    background: radial-gradient(circle closest-side, pink, transparent);
-    transform: translate(-50%, -50%);
-    transition: width 0.2s ease, height 0.2s ease;
-  }
-  
-  .mouse-cursor-gradient-tracking:hover:before {
-    --size: 200px;
-  }
- */
-
-
-
 .maindiv3{
     text-align: left;
     font-family: sans-serif;
@@ -122,10 +85,11 @@
         padding-bottom: 1%;
         box-shadow: none;
         z-index: 1;
-        transition: border 1s;
-        transition: background-color 1s;
+        /* transition: border 1s;
+        transition: background-color 1s; */
         cursor: pointer;
         font-weight: 500;
+        
     }
 
     .btn:hover{
@@ -134,14 +98,31 @@
         border: 1px solid #5e2610;   
     }
 
-    .div1{
-        /* background-color: skyblue; */
-        /* text-align: center; */
+    /* .grad2{ 
+        background: radial-gradient(closest-side at 16% 44% , #fdcce5, #fffccf);
+        margin: 20px 10px;
+        transition: 0.3s;
     }
+
+    .grad2:hover{
+        background: radial-gradient(closest-side at 16% 44% , #f586bf, #fffccf);
+      } */
+
+      .gradd2{
+        background: radial-gradient(closest-side at 16% 44% , #fdcce5, #fffccf);
+        transition: 0.3s;
+        /* margin: 0px auto; */
+        z-index: 1;
+        margin-left:  auto;
+        margin-right: auto;
+      }
+      .gradd2:hover{
+        background: radial-gradient(closest-side at 16% 44% , #f586bf, #fffccf);
+      } 
+
 
     .grad{
         background: radial-gradient(closest-side at 16% 44% , #f6f49a, #fffccf);
-        /* width: 84%; */
         margin: 0px auto;
         transition: 0.3s;
       }
@@ -150,6 +131,8 @@
     .grad:hover{
         background: radial-gradient(closest-side at 16% 44% , #f7f450, #fffccf);
       }
+
+
 
     .iconing{
         z-index: 1;
@@ -170,8 +153,20 @@
         /* left: 5%; */
         /* top: 35%; */
         z-index: 4;
-        /* animation: examplebee 3s ease-in-out infinite alternate; */
+        animation: examplebee 3s ease-in-out infinite alternate;
     }
+    @keyframes examplebee {
+        0%   {top: 35%;}
+        
+        /* 25%   {top: 5%;} */
+        /* 50%   {top: -10%;} */
+        /* 100%   {top: 5%;} */
+
+        /* 0%   {left: -30%;} */
+        /* 25%   {left: -10%;} */
+        /* 50%   {left: 10%;} */
+        /* 100%   {left: 5%;} */
+      }
     
     .smoke{
         position: absolute;
@@ -205,6 +200,27 @@
         z-index: 1;
     }
 
+    .smokee2{
+        position: absolute;
+        width:  30%;
+        height: 30%;
+        top: 55%;
+        z-index: 3;
+        opacity: 0.5;
+        animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+    }
+    /* @keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+    } */
+
     .shadow{
         width:  50%;
         height: 60%;
@@ -232,32 +248,25 @@
         100% {background-color: green;} */
       }
     
-    @keyframes examplebee {
-        0%   {left: -30%;}
+
     
-        0%   {top: 30%;}
-    
-        /* 25%   {left: 20%;} */
-    
-        25%   {top: 10%;}
-        /* 50%   {left: 10%;} */
-        50%   {top: 30%;}
-        /* 100%   {left: 5%;} */
-        100%   {top: 10%;}
-        /* 25%  {background-color: yellow;}
-        50%  {background-color: blue;}
-        100% {background-color: green;} */
-      }
-    
-      .yelleff{
+      /* .yelleff{
         width:  50%;
         height: 90%;
         position: absolute;
         left: 25%;
         top:  10%;
         z-index: 3;
+    } */
+    .pinkeff{
+        width:  50%;
+        height: 90%;
+        position: absolute;
+        left: 25%;
+        top:  10%;
+        z-index: 3;
+        /* #ffdcee */
     }
-
 
 
 /* Small devices (landscape phones, 576px and up) */
@@ -419,11 +428,11 @@
             
             .maindiv3{
                 margin-top: 5%;
+                
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
                 }
-                /* .blurbee{
-                    left: -16%;
-                    top: 18%;
-                }   */
  
      }
 
@@ -431,5 +440,14 @@
         .blurbee{
             left: -18%;
             top: 18%;
-        }  
+        } 
+        .smoke{
+            /* position: absolute; */
+            width:  20%;
+            height: 20%;
+            left: 44%;
+            top: 30%;
+            z-index: 3;
+            /* opacity: 0.5; */
+        } 
      }
